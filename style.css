@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:  Verdana,Geneva,Tahoma,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{background-color: white;}
+.credo{ width: 15%;
+    vertical-align: middle;
+    
+    
+}
+body{
+    background-image:
+    background-size: cover;
+
+}
+.quest {
+    float: right;
+    align-items: center;
+    vertical-align: middle;
+    padding: 30px; 
+}
+.cre {
+    color: #2e7d32;
+}
+.search, .bttn { 
+    height: 30px;
+    padding-right: 5px;
+}
+.bttn{
+    background-color:#2e7d32;
+    padding: 5px ;
+    border-radius: 0 5px 5px 0;
+    color: white;
+}
+.quest, header img {
+display: inline-block;
+margin-right: 30px;
+}
+.banniere img{
+    width: 100%;
+    height: 400px;
+    border-radius:5px 5px 0 0;
+}
+.liste li {
+    display: inline;
+    margin-left: 130px;
+
+}
+.liste a{
+    color:white;
+}
+
+nav{
+    border: 1px solid #2e7d32;
+    background-color: #2e7d32;
+    padding: 5px;
+    border-radius:  10px;
+}
+ 
+.hr {
+    height: 5px;
+    background-color: #2e7d32 ;
+width: 50%;
+box-shadow: rgb(115, 255, 0) 5px 8px 10px;
+
+}
+
+.action{
+    height: 40px;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #2e7d32;
+    color: white;
+    margin: 30px 40% ;
+    padding: ;
+}
+.actuss1 {
+   padding-top: 30px;
+    border:none;
+    height: 750px;
+    background-color: rgb(231, 226, 226)  ;
+    padding-right: 20px;
+}
+.cp{
+    float: left;
+    margin: 50px;
+    width: 60%;
+}
+.actuss2 {
+    border:none;
+    height: 750px;
+    background-color: rgb(112, 188, 223) ;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.marocain{
+    margin-top: 50px ;
+    float: left;
+    padding-right: 20px;
+    
+}
+.actuss3 {
+    border:none;
+    height: 1000px;
+    background-color: rgb(139, 177, 154);
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.WWF{
+    margin-top: 50px ;
+    float: left;
+    padding-right: 20px;
+    
+}
+footer {
+    height: 700px;
+    background-color: #2e7d32;
+    margin-top: 100px;
+    color: white;
+}
+.man {
+    height: 1000px;
+    width: 100%;
+    color: white;
+}
+footer h2, footer h3 {color: whitesmoke;}
+.derim{
+    margin: 5px 36%;
+}
+.smd{
+    height: 100px;
+    width: 230px;
+}
+.b1, .b2, .b3{
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 20px;
+    width: 20%;
+    vertical-align: top ;
+}
+footer a{
+    color: white;
+}
+a:hover{
+    color: rgb(112, 188, 223) ;
+}
+
+  
+.policy{
+    margin: 100px 36%;
+}
+footer {
+    background: linear-gradient(290deg, #2e7d32, #60ad5e); 
+    color: white;
+  }
+
+  /* partie contact */
+  
+    .cont { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    .tetecont, footer { background-color: #2e7d32; color: white; padding: 1rem; text-align: center; }
+    nav { display: flex; justify-content: center; gap: 1rem; background-color: #388e3c; padding: 0.5rem; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    .hero { background: url('nature.jpg') center/cover no-repeat; color: white; text-align: center; padding: 5rem 1rem; }
+    .sectioncont { padding: 2rem; }
+    .cta-button { background-color: #2e7d32; color: white; padding: 0.7rem 1.5rem; border: none; border-radius: 5px; cursor: pointer; }
+    .sectioncont{color: #2e7d32;}
+    .log {border: none;
+        height: 400px;
+        width: 10px;
+        border-radius: 30px 30px;
+
+
+    }
+    .ctc, .log{
+      display: inline-block;
+      width: 30%;
+      margin: 30px 30px;
+      padding: 20px 20px;
+      vertical-align: top;
+    }
+.ctc li{
+  list-style-type:  none;
+
+}
+
+/* formulaire */
+  form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(46, 125, 50, 0.2);
+    font-family: Arial, sans-serif;
+  }
+
+  input, .btnform{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  .btnform{
+    background-color: #2e7d32;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .btnform:hover {
+    background-color: #256c28;
+  }
+
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .frmctt{
+    color: #2e7d32;
+    text-align: center;
+  }
+
+  /* Apropos */
+  .aprop{
+    color: black;
+  }
+  .aprop a{
+    list-style-type:squareS;
+  }
+
+
+  
